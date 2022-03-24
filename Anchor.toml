@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+diamondhands = "46tA8eaHGusgNYdeLVmmUGofjJXTbgJUyiPjQFitVugV"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/drkrueger/.config/solana/id.json"
+
+[scripts]
+test = "ts-node tests/tests.ts"
